@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"    
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/ButtonUsbPrint"
+        android:layout_width="500dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:text="Printer(usb)" />
+
+    <Button
+        android:id="@+id/ButtonPrint"
+        android:layout_width="500dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:text="Printer(com)" />
+   
+     <Button
+         android:id="@+id/ButtonDrw"
+         android:layout_width="500dp"
+         android:layout_height="0dp"
+         android:layout_gravity="center"
+         android:layout_weight="1"
+         android:text="@string/drw" />
+
+"
+
+     <!-- <Button
+         android:id="@+id/ButtonMsr"
+         android:layout_width="500dp"
+         android:layout_height="0dp"
+         android:layout_gravity="center"
+         android:layout_weight="1"
+         android:text="Msr" /> -->
+
+      <Button
+          android:id="@+id/ButtonIFID"
+          android:layout_width="500dp"
+          android:layout_height="0dp"
+          android:layout_gravity="center"
+          android:layout_weight="1"
+          android:text="Rfid" />
+
+       <Button
+           android:id="@+id/ButtonDsp320"
+           android:layout_width="500dp"
+           android:layout_height="0dp"
+           android:layout_gravity="center"
+           android:layout_weight="1"
+           android:text="DspPos320/220" />
+
+       <Button
+           android:id="@+id/ButtonDsp110"
+           android:layout_width="500dp"
+           android:layout_height="0dp"
+           android:layout_gravity="center"
+           android:layout_weight="1"
+           android:text="Dsp110" />
+
+       <Button
+           android:id="@+id/ButtonIbutton"
+           android:layout_width="500dp"
+           android:layout_height="0dp"
+           android:layout_gravity="center"
+           android:layout_weight="1"
+           android:text="IButton" />
+<Button
+           android:id="@+id/ButtonScale"
+           android:layout_width="500dp"
+           android:layout_height="0dp"
+           android:layout_gravity="center"
+           android:layout_weight="1"
+           android:text="Scale" />
+       <Button
+           android:id="@+id/ButtonMultiInOne"
+           android:layout_width="500dp"
+           android:layout_height="0dp"
+           android:layout_gravity="center"
+           android:layout_weight="1"
+           android:text="Multi in one" />
+    
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" >
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:layout_weight="0.94" >
+
+       </LinearLayout>
+
+       <Button
+           android:id="@+id/ButtonQuit"
+           android:layout_width="160dp"
+           android:layout_height="62dp"
+           android:paddingBottom="5dp"
+           android:text="Back" />
+
+   </LinearLayout>
+</LinearLayout>

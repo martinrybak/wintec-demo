@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textview_baudrate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="24dp"
+        android:text="Baudrate" />
+
+    <Spinner
+        android:id="@+id/spinner_baudrate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textview_baudrate"
+       	android:entries="@array/baudrate"/>
+    <TextView
+        android:id="@+id/textview_verify_bit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/spinner_baudrate"
+        android:layout_marginTop="27dp"
+        android:text="Parity" />
+
+    <Spinner
+        android:id="@+id/spinner_verify_bit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/spinner_baudrate"
+        android:layout_below="@+id/spinner_baudrate" 
+        android:entries="@array/verify_bit"/>
+    
+    <TextView
+        android:id="@+id/textview_data_bit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/spinner_data_bit"
+        android:layout_marginTop="20dp"
+        android:layout_toLeftOf="@+id/spinner_data_bit"
+        android:text="Data bits" />
+    <Spinner
+        android:id="@+id/spinner_data_bit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/spinner_verify_bit"
+        android:layout_below="@+id/spinner_verify_bit"
+        android:entries="@array/data_bit"/>
+    
+    <TextView
+        android:id="@+id/textview_stop_bit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/spinner_data_bit"
+        android:layout_marginTop="23dp"
+        android:text="Stop Bit" />
+
+    <Spinner
+        android:id="@+id/spinner_stop_bit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/spinner_data_bit"
+        android:layout_below="@+id/spinner_data_bit"
+        android:entries="@array/stop_bit"/>
+
+    <Button
+        android:id="@+id/button_cancel"
+        android:layout_width="160dp"
+        android:layout_height="62dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="Back" />
+
+    <Button
+        android:id="@+id/button_ok"
+        android:layout_width="160dp"
+        android:layout_height="62dp"
+        android:layout_alignBottom="@+id/button_cancel"
+        android:layout_alignParentLeft="true"
+        android:text="Enter" />
+
+    <Spinner
+        android:id="@+id/spinner_flow_control"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner_stop_bit"
+        android:layout_toRightOf="@+id/textview_stop_bit" 
+        android:entries="@array/flow_control"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/spinner_flow_control"
+        android:layout_marginTop="18dp"/>
+
+    <TextView
+        android:id="@+id/textview_flow_control"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textview_stop_bit"
+        android:layout_alignTop="@+id/textView5"
+        android:text="Flow Control" />
+
+</RelativeLayout>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="Wintec welcome you!" >
+        <requestFocus />
+    </EditText>
+	<Button
+            android:id="@+id/button_input"
+            android:layout_width="160dp"
+            android:layout_height="62dp"
+            android:text="Send" />
+    <LinearLayout
+        android:layout_width="match_parent"
+         android:layout_height="wrap_content" >
+        <Button
+            android:id="@+id/button_left"
+            android:layout_width="160dp"
+            android:layout_height="62dp"
+            android:text="left" />
+		<Button
+            android:id="@+id/button_right"
+           android:layout_width="160dp"
+            android:layout_height="62dp"          
+            android:text="Right" />
+		<Button
+            android:id="@+id/button_down"
+            android:layout_width="160dp"
+             android:layout_height="62dp"
+            android:text="Down" />
+        <Button
+            android:id="@+id/button_up"
+            android:layout_width="160dp"
+             android:layout_height="62dp"
+            android:text="Up" />		
+    </LinearLayout> 
+    <LinearLayout
+        android:layout_width="match_parent"
+         android:layout_height="wrap_content"        
+        >
+		<Button
+            android:id="@+id/button_endleft"
+            android:layout_width="160dp"
+             android:layout_height="62dp"
+            android:text="EndLeft" />
+         <Button
+             android:id="@+id/button_Endright"
+             android:layout_width="160dp"
+              android:layout_height="62dp"              
+             android:text="Endright" />
+        
+        <Button
+            android:id="@+id/button_home"
+            android:layout_width="160dp"
+             android:layout_height="62dp"
+            android:text="Home" />
+        <Button
+            android:id="@+id/button_End"
+            android:layout_width="160dp"
+             android:layout_height="62dp"              
+            android:text="End" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.87"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+             android:layout_height="62dp"            
+           >
+            <Button
+                android:id="@+id/button_clearline"
+                android:layout_width="160dp"
+                 android:layout_height="62dp"                
+                android:text="ClearLine" />
+            <Button
+                android:id="@+id/Button_Clear"
+                android:layout_width="160dp"
+                 android:layout_height="62dp"
+                android:text="Clear" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+            android:visibility="gone"
+            >
+            <Button
+                android:id="@+id/button_Move"
+                android:layout_width="wrap_content"
+                 android:layout_height="62dp"
+                android:text="Move" />
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="39dp"
+                 android:layout_height="62dp"
+                android:text="行"
+                android:textSize="24dp"
+                 />            <EditText
+                android:id="@+id/editrow"
+                android:layout_width="72dp"
+                 android:layout_height="62dp"
+                android:ems="10" />
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="38dp"
+                 android:layout_height="62dp"
+                android:text="列"
+                android:textSize="24dp" />
+            <EditText
+                android:id="@+id/editcolumn"
+                android:layout_width="78dp"
+                 android:layout_height="62dp"
+                android:ems="10" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+             android:layout_height="wrap_content" >
+            <Button
+                android:id="@+id/button_displayline"
+                android:layout_width="160dp"
+                 android:layout_height="62dp" 
+				android:visibility="gone"
+                android:text="DisplayLine" />
+            <Button
+                android:id="@+id/button_model"
+                android:layout_width="160dp"
+                android:layout_height="62dp"
+                android:visibility="gone"
+                android:text="model" />
+            <Button
+                android:id="@+id/button_displaymode"
+                android:layout_width="160dp"
+                android:layout_height="62dp"
+                android:text="DisplayMode" />
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" >
+                 <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="160dp"
+                android:layout_height="62dp"
+                android:layout_weight="1" 
+                 android:entries="@array/displaymode"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+         <RelativeLayout
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent">
+
+         <Spinner
+             android:id="@+id/spinner_Serport"
+             android:layout_width="160dp"
+             android:layout_height="62dp"
+             android:layout_alignParentBottom="true"
+             android:entries="@array/device" />
+
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+         android:layout_height="wrap_content"        
+        >
+
+        <Button
+            android:id="@+id/button_setting"
+            android:layout_width="160dp"
+            android:layout_height="62dp"
+            android:text="Setting" />
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="2.98" >
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_back"
+            android:layout_width="160dp"
+            android:layout_height="62dp"
+            android:text="Back" />
+    </LinearLayout>
+</LinearLayout>

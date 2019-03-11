@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="baudrate">
+        <item>115200</item>
+        <item>57600</item>
+        <item>38400</item>
+        <item>19200</item>
+        <item>9600</item>
+        <item>4800</item>
+        <item>2400</item>
+        <item>1200</item>
+        <item>600</item>
+        <item>300</item>
+        <item>NONE</item>
+    </string-array>
+    
+	<string-array name="verify_bit">
+        <item>NONE</item>
+        <item>ODD</item>
+        <item>EVEN</item>
+    </string-array>
+    
+    <string-array name="data_bit">
+        <item>8</item>
+        <item>7</item>
+        <item>6</item>
+    </string-array>
+    
+    <string-array name="stop_bit">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    
+	<string-array name="flow_control">
+	    <item>NONE</item>
+	    <item>RTS/CTS</item>
+	    <item>DTR/DSR</item>
+	</string-array>
+	
+    <string-array name="device">
+        <item>/dev/ttySAC0</item>
+        <item>/dev/ttySAC1</item>
+        <item>/dev/ttySAC2</item>
+        <item>/dev/ttySAC3</item>
+        <item>/dev/ttySAC4</item>
+    </string-array>
+    <string-array name="device2">
+        <item>/dev/ttyS0</item>
+        <item>/dev/ttyS1</item>
+        <item>/dev/ttySAC0</item>
+        <item>/dev/ttySAC1</item>
+        <item>/dev/ttySAC2</item>
+        <item>/dev/ttySAC3</item>
+        <item>/dev/ttySAC4</item>
+    </string-array>
+    <string-array name="displaymode">
+        <item>Cover</item>
+        <item>Vertical</item>
+        <item>Horizontal</item> 
+        </string-array>  
+    <string-array name="PwdFlag">
+	     <item>0x60</item>
+	     <item>0x61</item>
+    </string-array>
+    <string-array name="spi1">
+        <item>Static200ms</item>
+        <item>Static600ms</item>
+        <item>Static1000ms</item>
+        <item>Hanging scale mode</item>
+        <item>Animal model</item>
+    </string-array>
+    <string-array name="spi2">
+        <item>0%FS</item>
+        <item>10%FS</item>
+        <item>20%FS</item>
+        <item>30%FS</item>
+        <item>40%FS</item>
+        <item>50%FS</item>
+        <item>60%FS</item>
+        <item>70%FS</item>
+        <item>80%FS</item>
+        <item>90%FS</item>
+    </string-array>
+    <string-array name="spi3">
+        <item>1%FS</item>
+        <item>2%FS</item>
+        <item>3%FS</item>
+        <item>4%FS</item>
+        <item>5%FS</item>
+        <item>6%FS</item>
+        <item>7%FS</item>
+        <item>8%FS</item>
+        <item>9%FS</item>
+        <item>10%FS</item>
+    </string-array>
+    <string-array name="spi4">
+        <item>0d</item>
+        <item>0.5d</item>
+        <item>1d</item>
+        <item>1.5d</item>
+        <item>2d</item>
+        <item>2.5d</item>
+        <item>3d</item>
+    </string-array>
+</resources>

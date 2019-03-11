@@ -1,0 +1,383 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".RFID_DEV" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32sp"
+        android:layout_marginTop="4sp"
+        android:text="@string/select_cardtype" />
+
+    <Spinner
+        android:id="@+id/card_type"
+        android:layout_width="128sp"
+        android:layout_height="32sp"
+        android:layout_marginLeft="148sp"
+        android:layout_marginTop="0sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="32sp"
+        android:layout_marginTop="32sp"
+        android:background="@drawable/linearlayout"
+        android:padding="3sp" >
+
+        <Button
+            android:id="@+id/fmrfid_search"
+            android:layout_width="128sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32sp"
+            android:layout_marginTop="0sp"
+            android:text="@string/rfid_search" />
+        <Button
+            android:id="@+id/fmrfid_cancel"
+            android:layout_width="128sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="680sp"
+            android:layout_marginTop="0sp"
+            android:text="@string/rfid_cancel" />
+
+        <EditText
+            android:id="@+id/fmrfid_idtext"
+            android:layout_width="128sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="168sp"
+            android:layout_marginTop="0sp"
+            android:hint="@null" />
+
+        <RelativeLayout
+            android:layout_width="420sp"
+            android:layout_height="300sp"
+            android:layout_marginLeft="8sp"
+            android:layout_marginTop="48sp"
+            android:background="@drawable/linearlayout"
+            android:padding="3sp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24sp"
+                android:layout_marginTop="8sp"
+                android:text="@string/rfid_sector" />
+
+            <Spinner
+                android:id="@+id/card_sector1"
+                android:layout_width="64sp"
+                android:layout_height="32sp"
+                android:layout_marginLeft="64sp"
+                android:layout_marginTop="0sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="244sp"
+                android:layout_marginTop="8sp"
+                android:text="@string/rfid_block" />
+
+            <Spinner
+                android:id="@+id/card_block1"
+                android:layout_width="64sp"
+                android:layout_height="32sp"
+                android:layout_marginLeft="284sp"
+                android:layout_marginTop="0sp" />
+
+            <RadioGroup
+                android:id="@+id/rfid_key1"
+                android:layout_width="180sp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0sp"
+                android:layout_marginTop="32sp"
+                android:background="@drawable/linearlayout"
+                android:orientation="horizontal"
+                android:padding="3sp" >
+
+                <RadioButton
+                    android:id="@+id/rfid_akey1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4sp"
+                    android:checked="true"
+                    android:text="@string/rfid_akey" />
+
+                <RadioButton
+                    android:id="@+id/rfid_bkey1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="18sp"
+                    android:layout_marginTop="4sp"
+                    android:text="@string/rfid_bkey" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="190sp"
+                android:layout_marginTop="40sp"
+                android:text="@string/rfid_key" />
+
+            <EditText
+                android:id="@+id/fmrfid_keytext1"
+                android:layout_width="148sp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="218sp"
+                android:layout_marginTop="32sp"  
+                android:digits="0123456789abcdefABCDEF" 
+                android:maxLength="12"
+                android:text="FFFFFFFFFFFF" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0sp"
+                android:layout_marginTop="80sp"
+                android:text="1:" />
+
+            <EditText
+                android:id="@+id/fmrfid_blocktext1"
+                android:layout_width="370sp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16sp"
+                android:layout_marginTop="64sp"
+                android:digits="0123456789abcdefABCDEF"
+                android:hint="@null"
+                android:maxLength="32" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0sp"
+                android:layout_marginTop="112sp"
+                android:text="2:" />
+
+            <EditText
+                android:id="@+id/fmrfid_blocktext2"
+                android:layout_width="370sp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16sp"
+                android:layout_marginTop="96sp"
+                android:hint="@null"
+                android:digits="0123456789abcdefABCDEF"
+                android:maxLength="32" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0sp"
+                android:layout_marginTop="144sp"
+                android:text="3:" />
+
+            <EditText
+                android:id="@+id/fmrfid_blocktext3"
+                android:layout_width="370sp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16sp"
+                android:layout_marginTop="128sp"
+                android:hint="@null"
+                android:digits="0123456789abcdefABCDEF"
+                android:maxLength="32" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0sp"
+                android:layout_marginTop="176sp"
+                android:text="4:" />
+
+            <EditText
+                android:id="@+id/fmrfid_blocktext4"
+                android:layout_width="370sp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16sp"
+                android:layout_marginTop="160sp"
+                android:hint="@null"
+                android:digits="0123456789abcdefABCDEF"
+                android:maxLength="32" />
+
+            <Button
+                android:id="@+id/fmrfid_readcard"
+                android:layout_width="128sp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32sp"
+                android:layout_marginTop="228sp"
+                android:text="@string/rfid_readcard" />
+
+            <Button
+                android:id="@+id/fmrfid_writecard"
+                android:layout_width="128sp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="224sp"
+                android:layout_marginTop="228sp"
+                android:text="@string/rfid_writecard" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="420sp"
+            android:layout_height="300sp"
+            android:layout_marginLeft="430sp"
+            android:layout_marginTop="48sp"
+            android:background="@drawable/linearlayout"
+            android:padding="3sp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24sp"
+                android:layout_marginTop="8sp"
+                android:text="@string/rfid_sector" />
+
+            <Spinner
+                android:id="@+id/card_sector2"
+                android:layout_width="64sp"
+                android:layout_height="32sp"
+                android:layout_marginLeft="64sp"
+                android:layout_marginTop="0sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="244sp"
+                android:layout_marginTop="8sp"
+                android:text="@string/rfid_block" />
+
+            <Spinner
+                android:id="@+id/card_block2"
+                android:layout_width="64sp"
+                android:layout_height="32sp"
+                android:layout_marginLeft="284sp"
+                android:layout_marginTop="0sp" />
+
+            <RadioGroup
+                android:id="@+id/rfid_key2"
+                android:layout_width="180sp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0sp"
+                android:layout_marginTop="32sp"
+                android:background="@drawable/linearlayout"
+                android:orientation="horizontal"
+                android:padding="3sp" >
+
+                <RadioButton
+                    android:id="@+id/rfid_akey2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4sp"
+                    android:checked="true"
+                    android:text="@string/rfid_akey" />
+
+                <RadioButton
+                    android:id="@+id/rfid_bkey2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="18sp"
+                    android:layout_marginTop="4sp"
+                    android:text="@string/rfid_bkey" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="190sp"
+                android:layout_marginTop="40sp"
+                android:text="@string/rfid_key" />
+
+            <EditText
+                android:id="@+id/fmrfid_keytext2"
+                android:layout_width="148sp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="218sp"
+                android:layout_marginTop="32sp"
+                android:maxLength="12"
+                android:digits="0123456789abcdefABCDEF"
+                android:text="FFFFFFFFFFFF" 
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0sp"
+                android:layout_marginTop="80sp"
+                android:text="@string/rfid_data" />
+
+            <EditText
+                android:id="@+id/fmrfid_valuetext1"
+                android:layout_width="162sp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32sp"
+                android:layout_marginTop="64sp"
+                android:hint="@null"
+                android:maxLength="12" />
+
+            <EditText
+                android:id="@+id/fmrfid_valuetext2"
+                android:layout_width="162sp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="204sp"
+                android:layout_marginTop="64sp"
+                android:enabled="false"
+                android:hint="@null"
+                android:maxLength="12" />
+
+            <Button
+                android:id="@+id/fmrfid_init"
+                android:layout_width="128sp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32sp"
+                android:layout_marginTop="132sp"
+                android:text="@string/rfid_init" />
+
+            <Button
+                android:id="@+id/fmrfid_increase"
+                android:layout_width="128sp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="224sp"
+                android:layout_marginTop="132sp"
+                android:text="@string/rfid_increase" />
+
+            <Button
+                android:id="@+id/fmrfid_drease"
+                android:layout_width="128sp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32sp"
+                android:layout_marginTop="228sp"
+                android:text="@string/rfid_decrease" />
+
+            <Button
+                android:id="@+id/fmrfid_balance"
+                android:layout_width="128sp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="224sp"
+                android:layout_marginTop="228sp"
+                android:text="@string/rfid_balance" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24sp"
+            android:layout_marginTop="38sp"
+            android:text="@string/rfid_operation" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="446sp"
+            android:layout_marginTop="38sp"
+            android:text="@string/rfid_purse" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48sp"
+        android:layout_marginTop="22sp"
+        android:text="@string/mifare_one" />
+
+</RelativeLayout>

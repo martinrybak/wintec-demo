@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WTMiddlewareDemo1.4.1</string>
+    <string name="menu_settings">Settings</string>    
+    <drawable name="white">#FFFFFFFF</drawable>
+	<string name="drw">Drw</string>
+	<string name="print">Printer</string>
+	
+	 <string name="action_settings">Settings</string>
+    <string name="please_choose">Select Device</string>
+    <string name="msr_device">MSR Device</string>
+    <string name="rfid_device">RFID Device</string>
+    <string name="pcsc_device">PCSC Device</string>
+    <string name="fm1_ok">OK</string>
+    <string name="fm1_cancel">EXIT</string>
+    <string name="title_activity_pcsc__dev">PCSC_DEV</string>
+    <string name="pcsc_cancel">EXIT</string>
+    <string name="reader_list">Readers List:</string>
+    <string name="pcsc_open">Open</string>
+    <string name="pcsc_close">Close</string>
+    <string name="pcsc_reset">Reset</string>
+    <string name="pcsc_free">Free</string>
+    <string name="pcsc_refresh">Refresh</string>
+    <string name="pcsc_apdu">APDU</string>
+    <string name="reader_rev">Receive:</string>
+    <string name="title_activity_rfid__dev">RFID_DEV</string>
+    <string name="select_cardtype">Select Card Type:</string> 
+	<string name="mifare_one">MifareOne</string> 
+	<string name="rfid_search">SearchCard</string>
+	<string name="rfid_operation">Operation Window</string>
+	<string name="rfid_sector">Sector:</string>
+	<string name="rfid_block">Block:</string>
+	<string name="rfid_akey">A Key</string>
+	<string name="rfid_bkey">B Key</string>
+	<string name="rfid_key">Key:</string>
+	<string name="rfid_readcard">Read Card</string>
+	<string name="rfid_writecard">Write Card</string>
+	<string name="rfid_purse">Purse Founction</string>
+	<string name="rfid_data">Data:</string>
+	<string name="rfid_init">Initialize</string>
+	<string name="rfid_increase">Increase</string>
+	<string name="rfid_decrease">Decrease</string>
+	<string name="rfid_balance">Balance</string>
+	<string name="rfid_cancel">EXIT</string>
+	
+	<string name="validChars">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ`1234567890-=~!\@#$%^\&amp;*()_+[];\'\\,./{}:\&quot;|&lt;&gt;\?</string>
+    <string name="ic_card">IC_CARD</string>
+    <string name="sCharWenhao">\?</string>
+    <string name="track1">Track1:</string>
+    <string name="track2">Track2:</string>
+    <string name="track3">Track3:</string>
+    <string name="tracks">Tracks</string>
+    <string name="ss">SS:</string>
+    <string name="es">ES:</string>
+    <string name="enter">Enter</string>
+    <string name="ascii">ASCII</string>
+    <string name="code">CODE</string>
+    <string name="header">Header</string>
+    <string name="separator">Separator</string>
+    <string name="suffix">Suffix</string>
+    <string name="prefix">Prefix</string>
+    <string name="others">Others</string>
+    <string name="beep_flag">Enable Beep</string>
+    <string name="ibm_flag">Support IBM Card</string>
+    <string name="reading_sequence">Reading Sequence: </string>
+    <string name="language_selection">Language Selection: </string>
+    <string name="data_flag">Output Data For Any Valid Track</string>
+    <string name="expansions">Expansions</string>
+    <string name="jis2_track">JIS2 Track :</string>
+    <string name="other">Other</string>
+    <string name="iButton">iButton</string>
+    <string name="remove">Remove :</string>
+    <string name="extract_from">Extract From:</string>
+    <string name="length">Length:</string>
+    <string name="attatch">Attatch</string>
+    <string name="ic_power_up">IC POWER UP</string>
+    <string name="ic_power_down">IC POWER DOWN</string>
+    <string name="send">Send</string>
+    <string name="receive">Receive:</string>
+    <string name="message">Message:</string>
+    <string name="apdu">APDU:</string>
+    <string name="load">Load</string>
+    <string name="read">Read</string>
+    <string name="write">Write</string>
+    <string name="normal">Normal</string>
+    <string name="test">Test</string>
+    <string name="store">Store</string>
+    <string name="restore">Restore</string>
+    <string name="exit">Exit</string>
+    <string name="output_order">Output Order:</string>
+    <string name="operation">Operation</string>
+    <string name="enter_file_name">Please enter the file name: </string>
+    <string name="select_file">Please select a file: </string>
+    <string name="enter_string">Enter a string to represent the MSR: </string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="backspace">Backspace</string>
+    <string name="response_code">Response Code:</string>
+    <string name="received_data">Received Data:</string>
+    <string name="send_data">Send Data:</string>
+    <string name="write_success">Write Config to USBMSR suscessfully</string>
+    <string name="write_fail">Write Config to USBMSR  failed</string>
+    <string name="read_success">Read Config from USBMSR suscessfully</string>
+    <string name="read_fail">Read Config from USBMSR  failed</string>
+    <string name="test_mode_success">Enter test mode suscessfully</string>
+    <string name="test_mode_fail">Enter test mode failed</string>
+    <string name="normal_mode_success">Enter normal mode suscessfully</string>
+    <string name="normal_mode_fail">Enter normal mode failed</string>
+    <string name="file_not_found">File not found</string>
+    <string name="file_exist">File already exists, please re-enter</string>
+    <string name="load_configuration">Load Configuration</string>
+    <string name="store_configuration">Store Configuration</string>
+    <string name="input_ascii">Input ASCII</string>
+    <string name="select_keycode">Select Keycode </string>
+    
+    <string name="antenna_close_fail">antenna close failed</string>
+    <string name="antenna_open_fail">antenna open failed</string>
+    <string name="set_type_fail">set type failed</string>
+    <string name="request_fail">request failed</string>
+    <string name="anticol_fail">anticol failed</string>
+    <string name="select_rfid_fail">select rfid failed</string>
+    <string name="authentication_fail">authentication failed</string>
+    <string name="read_rfid_fail">read rfid failed</string>
+    <string name="write_rfid_fail">write rfid failed </string>
+    <string name="initialize_fail">initialize failed</string>
+    <string name="increase_fail">increase failed</string>
+    <string name="decrease_fail">decrease failed</string>
+    <string name="balance_fail">balance failed</string>
+
+    <string name="seach_rfid_success">seach rfid successfully</string>
+    <string name="read_rfid_success">read rfid successfully</string>
+    <string name="write_rfid_success">write rfid successfully</string>
+    <string name="initialize_success">initialize successfully</string>
+    <string name="increase_success">increase successfully</string>
+    <string name="decrease_success">decrease successfully</string>
+    <string name="balance_success">balance successfully</string>
+    
+    <item name="tag_layernum" type="id"></item>
+    <item name="tag_defaultval" type="id"></item>
+    <item name="tag_asciitype" type="id"></item>
+    <item name="tag_rbtnstatus" type="id"></item>
+
+    <string name="test2">Test</string>
+    <string name="clear">Clear</string>
+    <string name="version">Version</string>
+    
+    <string name="yes">OK</string>
+    <string name="no">Cancel</string>
+    <string name="calibration">Set Kg</string>
+    <string name="tare">Set Tare</string>
+    <string name="gravity">Set Gravity</string>
+    <string name="otherP">other parameters</string>
+    <string name="comscl">Set COM</string>
+</resources>

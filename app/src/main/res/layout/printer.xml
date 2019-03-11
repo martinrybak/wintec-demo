@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="331dp"
+        android:layout_weight="1.33"
+        android:orientation="vertical" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+				 <LinearLayout
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content" >
+
+				     <Button
+				         android:id="@+id/button_print"
+				         android:layout_width="200dp"
+				         android:layout_height="62dp"
+				         android:text="print" />
+
+		        	<Button
+		        	    android:id="@+id/button_feedpaper"
+		        	    android:layout_width="200dp"
+		        	    android:layout_height="62dp"
+		        	    android:text="Feedpaper" />
+
+		        	<Button
+		        	    android:id="@+id/button_CutPage"
+		        	    android:layout_width="200dp"
+		        	    android:layout_height="62dp"
+		        	    android:text="Cutpaper" />
+
+				 </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button_BoldFont"
+                android:layout_width="200dp"
+                android:layout_height="62dp"
+                android:text="BoldFont" />
+
+            <Button
+                android:id="@+id/button_Disable"
+                android:layout_width="200dp"
+                android:layout_height="62dp"
+                android:text="Disable" />
+
+            <Button
+                android:id="@+id/button_Underline"
+                android:layout_width="200dp"
+                android:layout_height="62dp"
+                android:text="Underline" >
+                
+            </Button>
+
+            <Button
+                android:id="@+id/button_disableUnderline"
+                android:layout_width="200dp"
+                android:layout_height="62dp"
+                android:text="DisableUnderline" >
+                
+            </Button>
+        </LinearLayout>            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/button_DoubleWidth"
+                    android:layout_width="200dp"
+                    android:layout_height="62dp"
+                    android:text="DoubleWidth" />
+
+                <Button
+                    android:id="@+id/button_DisableFontDoubleWidth"
+                    android:layout_width="200dp"
+                    android:layout_height="62dp"
+                    android:text="DisableWidth" />
+                <Button
+                    android:id="@+id/button_EnableFontDoubleHeight"
+                    android:layout_width="200dp"
+                    android:layout_height="62dp"
+                    android:text="DoubleHeight" />
+
+                <Button
+                    android:id="@+id/button_DisableFontDoubleHeight"
+                    android:layout_width="200dp"
+                    android:layout_height="62dp"
+                    android:text="DisableDoubleHeight" />              
+            </LinearLayout>    
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button_DoubleWidthandHeight"
+                android:layout_width="400dp"
+                android:layout_height="62dp"
+                android:text="DoubleWidthandHeight" />
+
+            <Button
+                android:id="@+id/button_DisableDoubleWidthandHeight"
+                android:layout_width="400dp"
+                android:layout_height="62dp"
+                android:text="DisableDoubleWidthandHeight" />
+        </LinearLayout>
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+             <Button
+                 android:id="@+id/button_PrintBmp"
+                 android:layout_width="266dp"
+                 android:layout_height="62dp"
+                 android:text="PrintBmp" />
+
+              <Button
+                  android:id="@+id/button_PrintBarcode"
+                  android:layout_width="266dp"
+                  android:layout_height="62dp"
+                  android:text="PrintBarcode" />
+<Button
+                  android:id="@+id/button_PrintQRcode"
+                  android:layout_width="266dp"
+                  android:layout_height="62dp"
+                  android:text="PrintQRcode" />
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_weight="1"
+             android:orientation="vertical" >
+
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="20dp" >
+
+                 <TextView
+                     android:id="@+id/textView1"
+                     android:layout_width="150dp"
+                     android:layout_height="wrap_content"
+                     android:text="C010/C005："
+                     android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                 <Button
+                     android:id="@+id/btnPrintHebrew"
+                     android:layout_width="160dp"
+                     android:layout_height="62dp"
+                     android:text="print Hebrew" />
+
+                 <Button
+                     android:id="@+id/btnPrintArabic"
+                     android:layout_width="160dp"
+                     android:layout_height="62dp"
+                     android:text="print Arabic" />
+
+                 <Button
+                     android:id="@+id/btnPrintTurkish"
+                     android:layout_width="160dp"
+                     android:layout_height="62dp"
+                     android:text="print Turkish" />
+
+                 <Button
+                     android:id="@+id/btnPrintThai"
+                     android:layout_width="160dp"
+                     android:layout_height="62dp"
+                     android:text="print Thai" />
+
+             </LinearLayout>
+
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content" >
+
+                 <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="150dp"
+                     android:layout_height="wrap_content"
+                     android:text="WT-C010/WT-C005："
+                     android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                 <Button
+                     android:id="@+id/btnPrintHebrewWT"
+                     android:layout_width="160dp"
+                     android:layout_height="62dp"
+                     android:text="print Hebrew" />
+
+                 <Button
+                     android:id="@+id/btnPrintArabicWT"
+                     android:layout_width="160dp"
+                     android:layout_height="62dp"
+                     android:text="print Arabic" />
+
+                 <Button
+                     android:id="@+id/btnPrintTurkishWT"
+                     android:layout_width="160dp"
+                     android:layout_height="62dp"
+                     android:text="print Turkish" />
+
+                 <Button
+                     android:id="@+id/btnPrintThaiWT"
+                     android:layout_width="160dp"
+                     android:layout_height="62dp"
+                     android:text="print Thai" />
+
+                 <Button
+                     android:id="@+id/btnPrintVietnamWT"
+                     android:layout_width="160dp"
+                     android:layout_height="62dp"
+                     android:text="print Vietnam" />
+
+             </LinearLayout>
+
+         </LinearLayout>
+
+         <CheckBox
+             android:id="@+id/checkBox1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:gravity="bottom|start"
+             android:onClick="cbx_click"
+             android:text="Enable RTS CTS" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="bottom" >
+
+         <Spinner
+                android:id="@+id/spinner_Serport"
+                android:layout_width="160dp"
+                android:layout_height="62dp"
+                android:layout_weight="1" 
+                 android:entries="@array/device"/>
+        </RelativeLayout>
+        
+    </LinearLayout>
+  </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/button_setting"
+            android:layout_width="160dp"
+            android:layout_height="62dp"
+            android:text="Setting" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.66"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_back"
+            android:layout_width="160dp"
+            android:layout_height="62dp"
+            android:text="back" />
+
+    </LinearLayout>
+	</LinearLayout>

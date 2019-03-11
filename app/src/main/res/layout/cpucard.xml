@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnReadUserInfo"
+            android:layout_marginLeft="21dp"
+            android:layout_marginTop="16dp"
+            android:layout_toRightOf="@+id/textView1"
+            android:ems="10"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/editText1"
+            android:layout_alignBottom="@+id/editText1"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="58dp"
+            android:text="user name:"
+            android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="Back" />
+
+    <EditText
+        android:id="@+id/EditText01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnReadUserInfo"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="63dp"
+        android:layout_toRightOf="@+id/TextView01"
+        android:ems="10"
+        android:text="" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/EditText01"
+        android:layout_alignBottom="@+id/EditText01"
+        android:layout_toLeftOf="@+id/editText1"
+        android:text="user code:"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/EditText02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_below="@+id/editText1"
+        android:layout_marginTop="51dp"
+        android:ems="10"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/EditText02"
+        android:layout_alignBottom="@+id/EditText02"
+        android:layout_toLeftOf="@+id/editText1"
+        android:text="card type:"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/EditText03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/EditText02"
+        android:layout_alignTop="@+id/TextView03"
+        android:ems="10"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/EditText04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/EditText01"
+        android:layout_below="@+id/TextView03"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/EditText04"
+        android:layout_alignBottom="@+id/EditText04"
+        android:layout_toLeftOf="@+id/EditText01"
+        android:text="credential no:"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EditText02"
+        android:layout_toLeftOf="@+id/EditText01"
+        android:text="user type:"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/TextView05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText1"
+        android:layout_alignBottom="@+id/editText1"
+        android:layout_centerHorizontal="true"
+        android:text="goods code:"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/EditText05"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView05"
+        android:layout_alignBottom="@+id/TextView05"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/TextView05"
+        android:ems="10"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/EditText06"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/EditText02"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="24dp"
+        android:ems="10"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/TextView07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/EditText01"
+        android:layout_alignBottom="@+id/EditText01"
+        android:layout_centerHorizontal="true"
+        android:text="origin no:"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/TextView08"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView07"
+        android:layout_toLeftOf="@+id/EditText08"
+        android:text="transport no:"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/EditText08"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/EditText06"
+        android:layout_below="@+id/EditText06"
+        android:ems="10"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/TextView09"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/EditText02"
+        android:layout_alignBottom="@+id/EditText02"
+        android:layout_toLeftOf="@+id/EditText05"
+        android:text="weight:"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/EditText09"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView09"
+        android:layout_alignBottom="@+id/TextView09"
+        android:layout_alignLeft="@+id/EditText07"
+        android:ems="10"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/TextView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/EditText02"
+        android:layout_alignBottom="@+id/EditText02"
+        android:layout_toRightOf="@+id/EditText09"
+        android:text="price:"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/EditText11"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView09"
+        android:layout_toRightOf="@+id/TextView11"
+        android:ems="10"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/TextView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/EditText03"
+        android:layout_alignBottom="@+id/EditText03"
+        android:layout_alignRight="@+id/TextView09"
+        android:text="base name:"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/EditText07"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView12"
+        android:layout_alignBottom="@+id/TextView12"
+        android:layout_alignLeft="@+id/EditText05"
+        android:ems="10"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/TextView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/EditText04"
+        android:layout_alignBottom="@+id/EditText04"
+        android:layout_toLeftOf="@+id/EditText05"
+        android:text="saler code:"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/EditText12"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/EditText05"
+        android:layout_below="@+id/EditText05"
+        android:ems="10"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/EditText13"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView13"
+        android:layout_alignBottom="@+id/TextView13"
+        android:layout_alignLeft="@+id/EditText07"
+        android:ems="10"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/TextView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/EditText13"
+        android:layout_alignBottom="@+id/EditText13"
+        android:layout_toLeftOf="@+id/EditText14"
+        android:text="saler name:"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/EditText14"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView14"
+        android:layout_alignBottom="@+id/TextView14"
+        android:layout_alignRight="@+id/EditText07"
+        android:ems="10"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/TextView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EditText04"
+        android:layout_marginTop="16dp"
+        android:layout_toLeftOf="@+id/EditText05"
+        android:text="node code:"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/TextView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView15"
+        android:layout_alignBottom="@+id/TextView15"
+        android:layout_toLeftOf="@+id/EditText14"
+        android:text="node name:"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/TextView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EditText13"
+        android:layout_marginTop="57dp"
+        android:layout_toLeftOf="@+id/EditText05"
+        android:text="tran id:"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/TextView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView17"
+        android:layout_alignBottom="@+id/TextView17"
+        android:layout_toLeftOf="@+id/EditText14"
+        android:text="status:"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/EditText15"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView17"
+        android:layout_alignBottom="@+id/TextView17"
+        android:layout_alignLeft="@+id/EditText13"
+        android:ems="10"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/EditText16"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/EditText13"
+        android:layout_below="@+id/EditText13"
+        android:ems="10"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/EditText18"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/EditText07"
+        android:layout_below="@+id/EditText13"
+        android:ems="10"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/TextView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/EditText11"
+        android:layout_toRightOf="@+id/EditText10"
+        android:text="quantity:"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/EditText10"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView09"
+        android:layout_toRightOf="@+id/TextView10"
+        android:ems="10"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnReadUserInfo"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TextView01"
+        android:layout_alignParentTop="true"
+        android:text="user identification" />
+
+    <EditText
+        android:id="@+id/EditText19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/EditText03"
+        android:layout_below="@+id/EditText03"
+        android:layout_marginTop="51dp"
+        android:ems="10"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/TextView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView17"
+        android:layout_alignBottom="@+id/TextView17"
+        android:layout_toLeftOf="@+id/EditText01"
+        android:text="card no:"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/TextView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/EditText16"
+        android:layout_alignBottom="@+id/EditText16"
+        android:layout_alignRight="@+id/TextView04"
+        android:text="tel:"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnReadSummary"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/EditText01"
+        android:layout_alignLeft="@+id/TextView05"
+        android:text="read trade count" />
+
+    <Button
+        android:id="@+id/btnReadTradeDetail"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/EditText01"
+        android:layout_toRightOf="@+id/btnReadSummary"
+        android:text="read trade info" />
+
+    <Button
+        android:id="@+id/btnWriteUserInfo"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/btnReadUserInfo"
+        android:text="write user info" />
+
+    <EditText
+        android:id="@+id/EditText20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/EditText19"
+        android:layout_alignTop="@+id/TextView20"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Button02"
+        android:layout_alignBottom="@+id/Button02"
+        android:layout_alignRight="@+id/EditText20"
+        android:text="clear" />
+
+    <Button
+        android:id="@+id/btnWriteTradeDetial"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnReadTradeDetail"
+        android:layout_toRightOf="@+id/btnReadTradeDetail"
+        android:text="write trade record" />
+
+    <TextView
+        android:id="@+id/TextView06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView05"
+        android:layout_toLeftOf="@+id/EditText06"
+        android:text="batch code:"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/EditText17"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView18"
+        android:layout_alignBottom="@+id/TextView18"
+        android:layout_alignLeft="@+id/EditText18"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/Button02"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/EditText06"
+        android:layout_below="@+id/EditText20"
+        android:text="clear" />
+
+</RelativeLayout>

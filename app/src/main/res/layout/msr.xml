@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/editText_Cardinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="msr cardinfo...." >
+
+        <requestFocus />
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:layout_weight="0.58"
+        android:orientation="vertical" >
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content" >
+
+             <Button
+                 android:id="@+id/button_read"
+                 android:layout_width="160dp"
+                 android:layout_height="62dp"
+                 android:text="Read" />
+
+             <Button
+                 android:id="@+id/button_Clear"
+                 android:layout_width="160dp"
+                 android:layout_height="62dp"
+                 android:text="Clear" />
+
+         </LinearLayout>
+
+        <Button
+            android:id="@+id/button_load"
+            android:layout_width="160dp"
+            android:layout_height="62dp"
+            android:text="Load" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/txtTrack1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Track1:" />
+
+            <TextView
+                android:id="@+id/txtSS1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="SS" />
+
+            <EditText
+                android:id="@+id/editTxtTrackstart1"
+                android:layout_width="72dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="%"
+                android:ems="10" />
+
+            <TextView
+                android:id="@+id/txtEs1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="ES" />
+
+            <EditText
+                android:id="@+id/editTxtTrackend1"
+                android:layout_width="59dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                 android:text="%"
+                android:ems="10" />
+
+            <CheckBox
+                android:id="@+id/cbenter1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="ENTER" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"             
+            >
+             <TextView
+                android:id="@+id/txtTrack2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Track2:" 
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:id="@+id/txtSS2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="SS" />
+
+            <EditText
+                android:id="@+id/editTxtTrackstart2"
+                android:layout_width="72dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="%"
+                android:ems="10" />
+
+            <TextView
+                android:id="@+id/txtEs2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="ES" />
+
+            <EditText
+                android:id="@+id/editTxtTrackend2"
+                android:layout_width="59dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="%"
+                android:ems="10" />
+            <CheckBox
+                android:id="@+id/cbenter2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="ENTER" />
+        </LinearLayout>
+		 <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+             <TextView
+                android:id="@+id/txtTrack3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Track3:" />
+
+            <TextView
+                android:id="@+id/txtSS3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="SS" />
+
+            <EditText
+                android:id="@+id/editTxtTrackstart3"
+                android:layout_width="72dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="%"
+                android:ems="10" />
+
+            <TextView
+                android:id="@+id/txtEs3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="ES" />
+
+            <EditText
+                android:id="@+id/editTxtTrackend3"
+                android:layout_width="59dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="%"
+                android:ems="10" />
+            <CheckBox
+                android:id="@+id/cbenter3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="ENTER" />
+        </LinearLayout>
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+              <CheckBox
+                android:id="@+id/cbBeep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Beep" />
+               <CheckBox
+                android:id="@+id/cbSubIBM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:text="Support IBM CARD" />               
+         </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >            
+            <Button
+            android:id="@+id/button_Save"
+            android:layout_width="160dp"
+            android:layout_height="62dp"
+            android:text="Save" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Spinner
+                android:id="@+id/spinner_Serport"
+                android:layout_width="160dp"
+                android:layout_height="62dp"
+                android:layout_weight="1"
+                android:entries="@array/device" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/button_setting"
+            android:layout_width="160dp"
+            android:layout_height="62dp"
+            android:text="Setting" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="2.02" >
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_back"
+            android:layout_width="160dp"
+            android:layout_height="62dp"
+            android:text="Back" />
+    </LinearLayout>
+
+</LinearLayout>

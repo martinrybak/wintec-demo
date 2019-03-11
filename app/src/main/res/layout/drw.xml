@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.83" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RadioGroup
+                android:id="@+id/radioGroup1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/radioCom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:textSize="30sp"
+                    android:text="COM" />
+
+                <RadioButton
+                    android:id="@+id/radioGpio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="30sp"
+                    android:text="GPIO" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/button_open"
+                android:layout_width="160dp"
+                android:layout_height="62dp"
+                android:layout_marginTop="20dp"
+                android:text="Open" />
+
+             <Button
+                 android:id="@+id/button_Staus"
+                 android:layout_width="160dp"
+                 android:layout_height="62dp"
+                 android:text="Staus" />
+
+         </LinearLayout>
+
+     </LinearLayout>
+
+        <Spinner
+            android:id="@+id/spinner_Serport"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:entries="@array/device" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/button_setting"
+            android:layout_width="160dp"
+            android:layout_height="62dp"
+            android:text="Setting" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="2.98" >
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_back"
+            android:layout_width="160dp"
+            android:layout_height="62dp"
+            android:text="Back" />
+       
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,1576 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/globalLLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="450dip" >
+
+        <!-- ************************************ ISO页面  ********************************************** -->
+
+        <LinearLayout
+            android:id="@+id/isollayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dip"
+                android:layout_margin="5dip"
+                android:layout_weight="2"
+                android:padding="3dip" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="14dip"
+                    android:background="@drawable/linearlayout"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dip"
+                        android:layout_weight="1"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="80dip"
+                            android:text="@string/track1"
+                            android:textSize="18sp" />
+
+                        <CheckBox
+                            android:id="@+id/isoEnable1CBox"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dip"
+                            android:checked="true" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dip"
+                            android:text="@string/ss"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/isoSS1Edit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dip"
+                            android:digits="@string/validChars"
+                            android:maxLength="1"
+                            android:paddingBottom="3dip"
+                            android:singleLine="true"
+                            android:text="%"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dip"
+                            android:text="@string/es"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/isoES1Edit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dip"
+                            android:digits="@string/validChars"
+                            android:maxLength="1"
+                            android:paddingBottom="3dip"
+                            android:singleLine="true"
+                            android:text="@string/sCharWenhao"
+                            android:textSize="16sp" />
+
+                        <CheckBox
+                            android:id="@+id/isoEnter1CBox"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dip"
+                            android:checked="false"
+                            android:text="@string/enter"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dip"
+                        android:layout_weight="1"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="80dip"
+                            android:text="@string/track2"
+                            android:textSize="18sp" />
+
+                        <CheckBox
+                            android:id="@+id/isoEnable2CBox"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dip"
+                            android:checked="true" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dip"
+                            android:text="@string/ss"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/isoSS2Edit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dip"
+                            android:digits="@string/validChars"
+                            android:maxLength="1"
+                            android:paddingBottom="3dip"
+                            android:singleLine="true"
+                            android:text=";"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dip"
+                            android:text="@string/es"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/isoES2Edit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dip"
+                            android:digits="@string/validChars"
+                            android:maxLength="1"
+                            android:paddingBottom="3dip"
+                            android:singleLine="true"
+                            android:text="@string/sCharWenhao"
+                            android:textSize="16sp" />
+
+                        <CheckBox
+                            android:id="@+id/isoEnter2CBox"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dip"
+                            android:checked="false"
+                            android:text="@string/enter"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dip"
+                        android:layout_weight="1"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="80dip"
+                            android:text="@string/track3"
+                            android:textSize="18sp" />
+
+                        <CheckBox
+                            android:id="@+id/isoEnable3CBox"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dip"
+                            android:checked="true" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dip"
+                            android:text="@string/ss"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/isoSS3Edit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dip"
+                            android:digits="@string/validChars"
+                            android:maxLength="1"
+                            android:paddingBottom="3dip"
+                            android:singleLine="true"
+                            android:text=";"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dip"
+                            android:text="@string/es"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/isoES3Edit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dip"
+                            android:digits="@string/validChars"
+                            android:maxLength="1"
+                            android:paddingBottom="3dip"
+                            android:singleLine="true"
+                            android:text="@string/sCharWenhao"
+                            android:textSize="16sp" />
+
+                        <CheckBox
+                            android:id="@+id/isoEnter3CBox"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dip"
+                            android:checked="false"
+                            android:text="@string/enter"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dip"
+                    android:text="@string/tracks"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="@color/fengexian" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dip"
+                android:layout_margin="5dip"
+                android:layout_weight="3"
+                android:orientation="horizontal"
+                android:padding="3dip" >
+
+                <RelativeLayout
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="5dip"
+                    android:layout_weight="1" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginTop="14dip"
+                        android:background="@drawable/linearlayout"
+                        android:orientation="vertical"
+                        android:padding="3dip" >
+
+                        <RelativeLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dip"
+                            android:layout_marginTop="4dip"
+                            android:layout_weight="1" >
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_marginTop="14dip"
+                                android:background="@drawable/linearlayout"
+                                android:orientation="vertical" >
+
+                                <RadioGroup
+                                    android:id="@+id/isoHeaderRGroup"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="0dip"
+                                    android:layout_marginTop="16dip"
+                                    android:layout_weight="1"
+                                    android:orientation="horizontal" >
+
+                                    <RadioButton
+                                        android:id="@+id/isoHeaderAsciiRBtn"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="20dip"
+                                        android:text="@string/ascii"
+                                        android:textSize="18sp" />
+
+                                    <RadioButton
+                                        android:id="@+id/isoHeaderCodeRBtn"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="20dip"
+                                        android:text="@string/code"
+                                        android:textSize="18sp" />
+                                </RadioGroup>
+
+                                <TextView
+                                    android:id="@+id/isoHeaderResult"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="0dip"
+                                    android:layout_marginLeft="8dip"
+                                    android:layout_weight="1"
+                                    android:text=""
+                                    android:textSize="18sp" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="8dip"
+                                android:text="@string/header"
+                                android:textSize="18sp" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dip"
+                            android:layout_weight="1" >
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_marginTop="14dip"
+                                android:background="@drawable/linearlayout"
+                                android:orientation="vertical" >
+
+                                <RadioGroup
+                                    android:id="@+id/isoSeparatorRGroup"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="0dip"
+                                    android:layout_marginTop="16dip"
+                                    android:layout_weight="1"
+                                    android:orientation="horizontal" >
+
+                                    <RadioButton
+                                        android:id="@+id/isoSeparatorAsciiRBtn"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="20dip"
+                                        android:text="@string/ascii"
+                                        android:textSize="18sp" />
+
+                                    <RadioButton
+                                        android:id="@+id/isoSeparatorCodeRBtn"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="20dip"
+                                        android:text="@string/code"
+                                        android:textSize="18sp" />
+                                </RadioGroup>
+
+                                <TextView
+                                    android:id="@+id/isoSeparatorResult"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="0dip"
+                                    android:layout_marginLeft="8dip"
+                                    android:layout_weight="1"
+                                    android:text=""
+                                    android:textSize="18sp" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="8dip"
+                                android:text="@string/separator"
+                                android:textSize="18sp" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dip"
+                            android:layout_weight="1" >
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_marginTop="14dip"
+                                android:background="@drawable/linearlayout"
+                                android:orientation="vertical" >
+
+                                <RadioGroup
+                                    android:id="@+id/isoSuffixRGroup"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="0dip"
+                                    android:layout_marginTop="16dip"
+                                    android:layout_weight="1"
+                                    android:orientation="horizontal" >
+
+                                    <RadioButton
+                                        android:id="@+id/isoSuffixAsciiRBtn"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="20dip"
+                                        android:text="@string/ascii"
+                                        android:textSize="18sp" />
+
+                                    <RadioButton
+                                        android:id="@+id/isoSuffixCodeRBtn"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="20dip"
+                                        android:text="@string/code"
+                                        android:textSize="18sp" />
+                                </RadioGroup>
+
+                                <TextView
+                                    android:id="@+id/isoSuffixResult"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="0dip"
+                                    android:layout_marginLeft="8dip"
+                                    android:layout_weight="1"
+                                    android:text=""
+                                    android:textSize="18sp" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="8dip"
+                                android:text="@string/suffix"
+                                android:textSize="18sp" />
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dip"
+                        android:text="@string/others"
+                        android:textSize="18sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginTop="14dip"
+                        android:background="@drawable/linearlayout"
+                        android:orientation="vertical"
+                        android:paddingLeft="5dip"
+                        android:paddingTop="10dip" >
+
+                        <CheckBox
+                            android:id="@+id/isoExpansionsBeepCBox"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dip"
+                            android:layout_weight="1"
+                            android:checked="true"
+                            android:text="@string/beep_flag"
+                            android:textSize="18sp" />
+
+                        <CheckBox
+                            android:id="@+id/isoExpansionsIBMCBox"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dip"
+                            android:layout_weight="1"
+                            android:checked="false"
+                            android:text="@string/ibm_flag"
+                            android:textSize="18sp" />
+
+                        <CheckBox
+                            android:id="@+id/isoExpansionsDataCBox"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dip"
+                            android:layout_weight="1"
+                            android:checked="false"
+                            android:text="@string/data_flag"
+                            android:textSize="18sp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dip"
+                            android:layout_weight="1"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/reading_sequence"
+                                android:textSize="18sp" />
+
+                            <Spinner
+                                android:id="@+id/isoExpansionsSeqSpinner"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dip"
+                            android:layout_weight="1"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/language_selection"
+                                android:textSize="18sp" />
+
+                            <Spinner
+                                android:id="@+id/isoExpansionsLangSpinner"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dip"
+                        android:text="@string/expansions"
+                        android:textSize="18sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginTop="14dip"
+                        android:background="@drawable/linearlayout"
+                        android:orientation="vertical"
+                        android:paddingLeft="5dip"
+                        android:paddingTop="10dip" >
+
+                        <Button
+                            android:id="@+id/isoClearBtn"
+                            android:layout_width="100dip"
+                            android:layout_height="wrap_content"
+                            android:text="@string/clear"
+                            android:textSize="16sp" />
+
+                        <EditText
+                            android:id="@+id/isoTestEdit"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_margin="5dip"
+                            android:gravity="left|top"
+                            android:inputType="textMultiLine"
+                            android:minLines="10"
+                            android:padding="5dip"
+                            android:singleLine="false"
+                            android:text=""
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dip"
+                        android:text="@string/test2"
+                        android:textSize="18sp" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <!-- ************************************ JIS2页面  ********************************************** -->
+
+        <LinearLayout
+            android:id="@+id/jis2llayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:padding="5dip" 
+            android:visibility="invisible"
+            >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="14dip"
+                    android:background="@drawable/linearlayout"
+                    android:orientation="horizontal"
+                    android:paddingLeft="5dip"
+                    android:paddingTop="40dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dip"
+                        android:text="@string/jis2_track"
+                        android:textSize="18sp" 
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:text="@string/ss"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/jis2SSEdit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:digits="@string/validChars"
+                        android:maxLength="1"
+                        android:paddingBottom="3dip"
+                        android:singleLine="true"
+                        android:text="*"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:text="@string/es"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/jis2ESEdit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:digits="@string/validChars"
+                        android:maxLength="1"
+                        android:paddingBottom="3dip"
+                        android:singleLine="true"
+                        android:text="@string/sCharWenhao"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dip"
+                    android:text="@string/tracks"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="14dip"
+                    android:background="@drawable/linearlayout"
+                    android:orientation="horizontal"
+                    android:paddingBottom="5dip"
+                    android:paddingLeft="5dip"
+                    android:paddingRight="5dip"
+                    android:paddingTop="10dip" >
+
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_marginTop="4dip"
+                        android:layout_weight="1" >
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_marginTop="14dip"
+                            android:background="@drawable/linearlayout"
+                            android:orientation="vertical" >
+
+                            <RadioGroup
+                                android:id="@+id/jis2PrefixRGroup"
+                                android:layout_width="fill_parent"
+                                android:layout_height="0dip"
+                                android:layout_marginTop="16dip"
+                                android:layout_weight="1"
+                                android:orientation="horizontal" >
+
+                                <RadioButton
+                                    android:id="@+id/jis2PrefixAsciiRBtn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="20dip"
+                                    android:text="@string/ascii"
+                                    android:textSize="18sp" />
+
+                                <RadioButton
+                                    android:id="@+id/jis2PrefixCodeRBtn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="20dip"
+                                    android:text="@string/code"
+                                    android:textSize="18sp" />
+                            </RadioGroup>
+
+                            <TextView
+                                android:id="@+id/jis2PrefixResult"
+                                android:layout_width="wrap_content"
+                                android:layout_height="0dip"
+                                android:layout_marginLeft="8dip"
+                                android:layout_weight="1"
+                                android:text=""
+                                android:textSize="18sp" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dip"
+                            android:text="@string/prefix"
+                            android:textSize="18sp" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="10dip"
+                        android:layout_marginTop="4dip"
+                        android:layout_weight="1" >
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_marginTop="14dip"
+                            android:background="@drawable/linearlayout"
+                            android:orientation="vertical" >
+
+                            <RadioGroup
+                                android:id="@+id/jis2SuffixRGroup"
+                                android:layout_width="fill_parent"
+                                android:layout_height="0dip"
+                                android:layout_marginTop="16dip"
+                                android:layout_weight="1"
+                                android:orientation="horizontal" >
+
+                                <RadioButton
+                                    android:id="@+id/jis2SuffixAsciiRBtn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="20dip"
+                                    android:text="@string/ascii"
+                                    android:textSize="18sp" />
+
+                                <RadioButton
+                                    android:id="@+id/jis2SuffixCodeRBtn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="20dip"
+                                    android:text="@string/code"
+                                    android:textSize="18sp" />
+                            </RadioGroup>
+
+                            <TextView
+                                android:id="@+id/jis2SuffixResult"
+                                android:layout_width="wrap_content"
+                                android:layout_height="0dip"
+                                android:layout_marginLeft="8dip"
+                                android:layout_weight="1"
+                                android:text=""
+                                android:textSize="18sp" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dip"
+                            android:text="@string/suffix"
+                            android:textSize="18sp" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dip"
+                    android:text="@string/other"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <!-- ************************************ iButton页面  ********************************************** -->
+
+        <LinearLayout
+            android:id="@+id/iButtonllayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:visibility="invisible"
+            android:padding="5dip" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="80dip" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="14dip"
+                    android:background="@drawable/linearlayout"
+                    android:orientation="horizontal"
+                    android:paddingLeft="5dip"
+                    android:paddingTop="5dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dip"
+                        android:text="@string/iButton"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:text="@string/ss"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/iButtonSSEdit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:digits="@string/validChars"
+                        android:maxLength="1"
+                        android:paddingBottom="3dip"
+                        android:singleLine="true"
+                        android:text="!"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:text="@string/es"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/iButtonESEdit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:digits="@string/validChars"
+                        android:maxLength="1"
+                        android:paddingBottom="3dip"
+                        android:singleLine="true"
+                        android:text="@string/sCharWenhao"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dip"
+                    android:text="@string/tracks"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="80dip" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="14dip"
+                    android:background="@drawable/linearlayout"
+                    android:orientation="horizontal"
+                    android:paddingLeft="40dip"
+                    android:paddingTop="10dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:text="@string/attatch"
+                        android:textSize="18sp" />
+
+                    <Spinner
+                        android:id="@+id/iButtonAttachSpinner"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:text="@string/remove"
+                        android:textSize="18sp" />
+
+                    <Spinner
+                        android:id="@+id/iButtonRemoveSpinner"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dip"
+                    android:text="@string/output_order"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:padding="2dip" >
+
+                <RelativeLayout
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginTop="14dip"
+                        android:background="@drawable/linearlayout"
+                        android:orientation="vertical"
+                        android:padding="4dip"
+                        android:paddingTop="5dip" >
+
+                        <RelativeLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dip"
+                            android:layout_marginTop="4dip"
+                            android:layout_weight="1" >
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_marginTop="14dip"
+                                android:background="@drawable/linearlayout"
+                                android:orientation="vertical" >
+
+                                <RadioGroup
+                                    android:id="@+id/iButtonAttachPrefixRGroup"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="0dip"
+                                    android:layout_marginTop="16dip"
+                                    android:layout_weight="1"
+                                    android:orientation="horizontal" >
+
+                                    <RadioButton
+                                        android:id="@+id/iButtonAttachPrefixAsciiRBtn"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="20dip"
+                                        android:text="@string/ascii"
+                                        android:textSize="18sp" />
+
+                                    <RadioButton
+                                        android:id="@+id/iButtonAttachPrefixCodeRBtn"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="20dip"
+                                        android:text="@string/code"
+                                        android:textSize="18sp" />
+                                </RadioGroup>
+
+                                <TextView
+                                    android:id="@+id/iButtonAttachPrefixResult"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="0dip"
+                                    android:layout_weight="1"
+                                    android:text=""
+                                    android:textSize="18sp" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="8dip"
+                                android:text="@string/prefix"
+                                android:textSize="18sp" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dip"
+                            android:layout_marginTop="4dip"
+                            android:layout_weight="1" >
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_marginTop="14dip"
+                                android:background="@drawable/linearlayout"
+                                android:orientation="vertical" >
+
+                                <RadioGroup
+                                    android:id="@+id/iButtonAttachSuffixRGroup"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="0dip"
+                                    android:layout_marginTop="16dip"
+                                    android:layout_weight="1"
+                                    android:orientation="horizontal" >
+
+                                    <RadioButton
+                                        android:id="@+id/iButtonAttachSuffixAsciiRBtn"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="20dip"
+                                        android:text="@string/ascii"
+                                        android:textSize="18sp" />
+
+                                    <RadioButton
+                                        android:id="@+id/iButtonAttachSuffixCodeRBtn"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="20dip"
+                                        android:text="@string/code"
+                                        android:textSize="18sp" />
+                                </RadioGroup>
+
+                                <TextView
+                                    android:id="@+id/iButtonAttachSuffixResult"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="0dip"
+                                    android:layout_weight="1"
+                                    android:text=""
+                                    android:textSize="18sp" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="8dip"
+                                android:text="@string/suffix"
+                                android:textSize="18sp" />
+                        </RelativeLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dip"
+                            android:layout_marginTop="4dip"
+                            android:layout_weight="1" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dip"
+                                android:text="@string/extract_from"
+                                android:textSize="18sp" />
+
+                            <EditText
+                                android:id="@+id/iButtonAttachFromEdit"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dip"
+                                android:digits="@string/validChars"
+                                android:maxLength="2"
+                                android:numeric="integer"
+                                android:paddingBottom="3dip"
+                                android:singleLine="true"
+                                android:text="1"
+                                android:textSize="16sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dip"
+                            android:layout_marginTop="4dip"
+                            android:layout_weight="1" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dip"
+                                android:text="@string/length"
+                                android:textSize="18sp" />
+
+                            <EditText
+                                android:id="@+id/iButtonAttachLengthEdit"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dip"
+                                android:digits="@string/validChars"
+                                android:maxLength="2"
+                                android:numeric="integer"
+                                android:paddingBottom="3dip"
+                                android:singleLine="true"
+                                android:text="16"
+                                android:textSize="16sp" />
+                        </LinearLayout>
+
+                        <CheckBox
+                            android:id="@+id/iButtonAttachBeepCBox"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dip"
+                            android:checked="false"
+                            android:text="@string/beep_flag"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dip"
+                        android:text="@string/attatch"
+                        android:textSize="18sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginTop="14dip"
+                        android:background="@drawable/linearlayout"
+                        android:orientation="vertical"
+                        android:padding="4dip"
+                        android:paddingTop="5dip" >
+
+                        <RelativeLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dip"
+                            android:layout_marginTop="4dip"
+                            android:layout_weight="1" >
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_marginTop="14dip"
+                                android:background="@drawable/linearlayout"
+                                android:orientation="vertical" >
+
+                                <RadioGroup
+                                    android:id="@+id/iButtonRemovePrefixRGroup"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="0dip"
+                                    android:layout_marginTop="16dip"
+                                    android:layout_weight="1"
+                                    android:orientation="horizontal" >
+
+                                    <RadioButton
+                                        android:id="@+id/iButtonRemovePrefixAsciiRBtn"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="20dip"
+                                        android:text="@string/ascii"
+                                        android:textSize="18sp" />
+
+                                    <RadioButton
+                                        android:id="@+id/iButtonRemovePrefixCodeRBtn"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="20dip"
+                                        android:text="@string/code"
+                                        android:textSize="18sp" />
+                                </RadioGroup>
+
+                                <TextView
+                                    android:id="@+id/iButtonRemovePrefixResult"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="0dip"
+                                    android:layout_weight="1"
+                                    android:text=""
+                                    android:textSize="18sp" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="8dip"
+                                android:text="@string/prefix"
+                                android:textSize="18sp" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dip"
+                            android:layout_marginTop="4dip"
+                            android:layout_weight="1" >
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_marginTop="14dip"
+                                android:background="@drawable/linearlayout"
+                                android:orientation="vertical" >
+
+                                <RadioGroup
+                                    android:id="@+id/iButtonRemoveSuffixRGroup"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="0dip"
+                                    android:layout_marginTop="16dip"
+                                    android:layout_weight="1"
+                                    android:orientation="horizontal" >
+
+                                    <RadioButton
+                                        android:id="@+id/iButtonRemoveSuffixAsciiRBtn"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="20dip"
+                                        android:text="@string/ascii"
+                                        android:textSize="18sp" />
+
+                                    <RadioButton
+                                        android:id="@+id/iButtonRemoveSuffixCodeRBtn"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="20dip"
+                                        android:text="@string/code"
+                                        android:textSize="18sp" />
+                                </RadioGroup>
+
+                                <TextView
+                                    android:id="@+id/iButtonRemoveSuffixResult"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="0dip"
+                                    android:layout_weight="1"
+                                    android:text=""
+                                    android:textSize="18sp" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="8dip"
+                                android:text="@string/suffix"
+                                android:textSize="18sp" />
+                        </RelativeLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dip"
+                            android:layout_marginTop="4dip"
+                            android:layout_weight="1" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dip"
+                                android:text="@string/extract_from"
+                                android:textSize="18sp" />
+
+                            <EditText
+                                android:id="@+id/iButtonRemoveFromEdit"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dip"
+                                android:digits="@string/validChars"
+                                android:maxLength="1"
+                                android:numeric="integer"
+                                android:paddingBottom="3dip"
+                                android:singleLine="true"
+                                android:text="1"
+                                android:textSize="16sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dip"
+                            android:layout_marginTop="4dip"
+                            android:layout_weight="1" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dip"
+                                android:text="@string/length"
+                                android:textSize="18sp" />
+
+                            <EditText
+                                android:id="@+id/iButtonRemoveLengthEdit"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dip"
+                                android:digits="@string/validChars"
+                                android:maxLength="2"
+                                android:numeric="integer"
+                                android:paddingBottom="3dip"
+                                android:singleLine="true"
+                                android:text="16"
+                                android:textSize="16sp" />
+                        </LinearLayout>
+
+                        <CheckBox
+                            android:id="@+id/iButtonRemoveBeepCBox"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dip"
+                            android:checked="false"
+                            android:text="@string/beep_flag"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dip"
+                        android:text="@string/remove"
+                        android:textSize="18sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginTop="14dip"
+                        android:background="@drawable/linearlayout"
+                        android:orientation="vertical"
+                        android:paddingLeft="5dip"
+                        android:paddingTop="10dip" >
+
+                        <Button
+                            android:id="@+id/iButtonClearBtn"
+                            android:layout_width="100dip"
+                            android:layout_height="wrap_content"
+                            android:text="@string/clear"
+                            android:textSize="16sp" />
+
+                        <EditText
+                            android:id="@+id/iButtonTestEdit"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_margin="5dip"
+                            android:gravity="left|top"
+                            android:inputType="textMultiLine"
+                            android:minLines="10"
+                            android:padding="5dip"
+                            android:singleLine="false"
+                            android:text=""
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dip"
+                        android:text="@string/test2"
+                        android:textSize="18sp" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- ************************************ IC CARD页面  ********************************************** -->
+
+        <LinearLayout
+            android:id="@+id/iccardllayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:visibility="invisible"
+            android:padding="5dip" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="80dip" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="14dip"
+                    android:background="@drawable/linearlayout"
+                    android:orientation="horizontal"
+                    android:paddingLeft="100dip"
+                    android:paddingTop="5dip" >
+
+                    <Button
+                        android:id="@+id/iccardPowerupBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ic_power_up"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:id="@+id/iccardPowerdownBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="100dip"
+                        android:text="@string/ic_power_down"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dip"
+                    android:text="@string/operation"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="14dip"
+                    android:background="@drawable/linearlayout"
+                    android:orientation="vertical"
+                    android:padding="5dip"
+                    android:paddingTop="20dip" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="100dip"
+                        android:orientation="horizontal" >
+
+                        <EditText
+                            android:id="@+id/iccardApduEdit"
+                            android:layout_width="850dip"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dip"
+                            android:digits="@string/validChars"
+                            android:paddingBottom="3dip"
+                            android:singleLine="true"
+                            android:text=""
+                            android:textSize="16sp" />
+
+                        <Button
+                            android:id="@+id/iccardApduSendBtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dip"
+                            android:layout_marginLeft="10dip"
+                            android:text="@string/send"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dip"
+                        android:text="@string/receive"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/iccardReceiveEdit"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:digits="@string/validChars"
+                        android:enabled="false"
+                        android:gravity="top"
+                        android:inputType="textMultiLine"
+                        android:minLines="8"
+                        android:paddingBottom="3dip"
+                        android:singleLine="false"
+                        android:text=""
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dip"
+                        android:text="@string/message"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/iccardMessageEdit"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:digits="@string/validChars"
+                        android:enabled="false"
+                        android:gravity="top"
+                        android:inputType="textMultiLine"
+                        android:minLines="10"
+                        android:paddingBottom="3dip"
+                        android:singleLine="false"
+                        android:text=""
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dip"
+                    android:text="@string/apdu"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+        </LinearLayout>
+        <!-- ************************************ ???  ********************************************** -->
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="80dip"
+        android:orientation="horizontal"
+        android:paddingLeft="30dip"
+        android:paddingTop="10dip" >
+
+        <Button
+            android:id="@+id/loadBtn"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:text="@string/load"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/storeBtn"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:text="@string/store"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/readBtn"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:text="@string/read"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/writeBtn"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:text="@string/write"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/normalBtn"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:text="@string/normal"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/testBtn"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:text="@string/test"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/restoreBtn"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="@string/restore"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/exitBtn"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:text="@string/exit"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/versionBtn"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:text="@string/version"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>
